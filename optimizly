@@ -1,0 +1,6 @@
+jQuery('.nav-primary .nav-link-our-solutions .label').text('Shop Our Solutions');
+jQuery('head').append( \
+'<style> \
+  .nav-primary .nav-link-our-solutions .label
+		testcolor: purple; \
+</style>');

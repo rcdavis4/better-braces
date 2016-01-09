@@ -1,0 +1,157 @@
+.icon-bar {
+  height: 92px;
+  background-color: #f2f2ed;
+}
+
+.icon-bar-content-wrapper {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+.icons-wrapper {
+	height: 92px;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.price-match-container,
+.fast-shipping-container, 
+.money-back-container {
+	float: left;
+	max-width: 33.33%;
+	padding: 16px 0;
+}
+
+.price-match-container {
+	margin-left: 46px;
+}
+
+.fast-shipping-container {
+	margin-left: 104px;
+}
+
+.money-back-container {
+	margin-left: 116px;
+}
+
+.price-match,
+.fast-shipping,
+.money-guarantee {
+	background-repeat: no-repeat;
+	height: 60px;
+}
+
+.price-match {
+	background-image: url(../img/icon-bar/price-match.png);
+}
+
+.fast-shipping {
+	background-image: url(../img/icon-bar/fast-shipping.png);
+}
+
+.money-guarantee {
+	background-image: url(../img/icon-bar/money-guarantee.png);
+}
+
+.price-match span,
+.fast-shipping span,
+.money-guarantee span {
+	display: inline-block;
+	text-align: left;
+	max-width: 115px;
+	margin-top: 19px;
+	line-height: 14px;
+	margin-left: 73px;
+	font-size: 12px;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.fast-shipping span {
+	margin-top: 22px;
+}
+
+
+/*------------------------------*\
+					#MEDIA QUERIES
+\*------------------------------*/
+
+@media only screen
+	and (min-width: 700px)
+	and (max-width: 827px) {
+	
+	.icons-wrapper {
+		max-width: 700px;
+	}	
+	
+	.price-match-container {
+		margin-left: 31px;
+	}
+
+	.fast-shipping-container {
+		margin-left: 44px;
+	}
+
+	.money-back-container {
+		margin-left: 50px;
+	}
+		
+}
+
+
+@media only screen
+	and (min-width: 540px)
+	and (max-width: 699px) {
+	
+	.icons-wrapper {
+		max-width: 540px;
+	}	
+	
+	.price-match-container {
+		margin-left: 10px;
+	}
+
+	.fast-shipping-container {
+		margin-left: 10px;
+	}
+
+	.money-back-container {
+		margin-left: -21px;
+	}
+		
+}
+
+
+@media only screen
+	and (max-width: 539px) {
+	
+	.icon-bar {
+		height: 292px;
+	}
+		
+	.icons-wrapper {
+		max-width: 539px;
+		margin-left: 25%;
+	}	
+	
+	.price-match-container,
+	.fast-shipping-container, 
+	.money-back-container {
+		float: none;
+		width: 100%;
+		margin-left: 0px;
+	}
+		
+	.price-match span,
+	.fast-shipping span,
+	.money-guarantee span {
+		width: 185px;
+	}
+		
+}
+
+
+
+
+

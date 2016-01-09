@@ -1,0 +1,38 @@
+/*------------------------------*\
+						 #GENERAL
+\*------------------------------*/
+
+html {
+	height: 100%;
+	font-size: 16px;
+}
+
+body {
+	position: relative;
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+}
+
+.content-wrapper {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+/*--- BUTTONS ---*/
+.lg-btn {
+	height: 40px;
+	width: 133px;
+	cursor: pointer;
+	border: none;
+	box-shadow: none;
+}
+
+.lg-btn-font {
+	font-family: "Lato", sans-serif;
+	font-size: 0.875rem;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+}

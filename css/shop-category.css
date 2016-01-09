@@ -1,0 +1,155 @@
+.shop-category {
+	position: relative;
+	padding-bottom: 164px;
+	border-bottom: 1px solid #e9e8e0;
+}
+
+.category-content-wrapper {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+.row {
+	display: inline-block;
+	margin: 0;
+  padding: 0;
+}
+
+.second,
+.third, 
+.fourth {
+	padding-top: 64px;
+}
+
+.braces-col-1-3 {
+	float: left;
+	padding-right: 30px;
+}
+
+.last {
+	padding-right: 0;
+}
+
+.cat-container {
+	width: 350px;
+}
+
+.cat-title {
+	text-align: center;
+	padding-top: 36px;
+}
+
+.cat-title span {
+	display: inline-block;
+	font-size: 1.5rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing:  3px;
+	word-spacing: 2px;
+	line-height: 28px;
+	color: #535454;
+	border-bottom: 3px solid #18adb4;
+}
+
+.cat-img-container {
+	position: relative;
+	padding-top: 20px;
+}
+
+.ankle-brace,
+.knee-brace,
+.back-brace,
+.walking-brace,
+.wrist-brace,
+.shoulder-brace {
+	position: absolute;
+}
+
+.ankle-brace {
+	top: -23px;
+	left: -41px;
+}
+
+.knee-brace {
+	bottom: -115px;
+	left: -61px;
+}
+
+.back-brace {
+	top: 20px;
+	left: -22px;
+}
+
+.walking-brace {
+	top: 19px;
+	left: -13px;
+}
+
+.wrist-brace {
+	top: 23px;
+	left: -25px;
+}
+
+.shoulder-brace {
+	top: -10px;
+	left: -1px;
+}
+
+.shop-now {
+	position: absolute;
+	display: inline-block;
+	top: 93px;
+	right: 32px;
+}
+
+.shop-now-btn {
+	height: 40px;
+	width: 160px;
+	background-color: transparent;
+	outline: none;
+	box-shadow: none;
+	border: 3px solid #fff;
+	cursor: pointer;
+}
+
+.shop-now-btn:hover {
+	background-color: #f9c550;
+	border: none;
+}
+
+.shop-now-btn span {
+	font-size: 0.8125rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.see-all-cat {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding-bottom: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.see-all-cat p {
+	font-size: 0.875rem;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #535454;
+}
+
+.down-arrow {
+	position: absolute;
+	top: 4px;
+	right: 41.5%;
+}
+
+
+
+
+

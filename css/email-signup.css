@@ -1,0 +1,128 @@
+/*------------------------------*\
+				 #EMAIL SIGN-UP
+\*------------------------------*/
+
+.info,
+.sign-up-form,
+.social-links {
+	float: left;
+	padding-top: 50px;
+}
+
+.info {
+	width: 346px;
+}
+
+.sign-up-form {
+	width: 564px;
+}
+
+.social-links {
+	width: 200px;
+	padding-top: 59px;
+}
+
+.stay-connected {
+	height: 140px;
+	background-color: #E2E0D7;
+	position: relative;
+}
+
+.info-title {
+	font-size: 1.125rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #404141;
+	line-height: 1.5rem;
+	letter-spacing: 2px;
+}
+
+.info-sub {
+	color: #6f6e69;
+	line-height: 1.5rem;
+}
+
+
+/*--- FORM ---*/
+
+.sign-up-form input {
+	height: 40px;
+	width: 235px;
+	background-color: #fafafa;
+	font-family: "Lato", sans-serif;
+	font-size: 0.875rem;
+	font-weight: 700;
+	letter-spacing: 0.25px;
+}
+
+input[type="text"] {
+	box-shadow: none;
+  border-radius: none;
+	outline: none;
+	border: 1px solid #c8c8c8;
+	color: #6f6e69;
+}
+
+input:focus {
+  outline: none;
+	padding-left: 20px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    #cbc9c9;
+	padding-left: 20px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color:    #cbc9c9;
+	padding-left: 20px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color:    #cbc9c9;
+	padding-left: 20px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:    #cbc9c9;
+	padding-left: 20px;
+}
+
+
+/*--- BUTTON ---*/
+
+.email-btn {
+	background-color: #1cafb5;
+	margin-left: -3px;
+}
+
+.email-btn:hover {
+	background-color: #1a8084;
+}
+
+
+/*--- SOCIAL LINKS ---*/
+
+.social-links {
+	font-size: 28px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+	display: inline-block;
+	color: #6e6e69;
+	float: left;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-youtube:hover {
+	cursor: pointer;
+	color: #96958f;
+}
+
+.fa-facebook {
+	padding-right: 70px;
+}
+
+.fa-twitter {
+	padding-right: 64px;
+}

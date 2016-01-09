@@ -1,0 +1,515 @@
+/*------------------------------*\
+		#SHOP BY PRODUCTS SECTION
+\*------------------------------*/
+
+.shop-products {
+	position: relative;
+	height: 595px;
+	margin-top: 6px;
+}
+
+
+/*--- TITLE SECTION ---*/
+
+.braces-title-section {
+	position: absolute;
+	width: 100%;
+	height: 195px;
+	top: 0;
+}
+
+.shop-braces-headings {
+	padding-top: 60px;
+	text-align: center;
+}
+
+.pre-heading {
+	font-style: italic;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #404141;
+}
+
+.braces-heading {
+	padding-top: 7px;
+	font-size: 1.875rem;
+	font-weight: 900;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #404141;
+}
+
+.sub-heading {
+	padding-top: 6px;
+	color: #454545;
+}
+
+.shop-braces-bg-img {
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 8px; left: 0; right: 0;
+	z-index: -99;
+}
+
+
+/*--- SHOP BY BRACES ---*/
+
+.banner {
+	position: absolute;
+	width: 100%;
+	height: 400px;
+	bottom: 0;
+	overflow: hidden;
+}
+
+.braces-left {
+	position: relative;
+	width: 41.69%;
+	height: 400px;
+	background-color: #f2f2ed;
+}
+
+.sale-tag {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.shop-braces-img img {
+	min-width: 100%;
+}
+
+.shop-braces-title {
+	position: absolute;
+	bottom: 110px;
+	left: 30px;
+}
+
+.shop-braces-title p {
+	font-size: 1.5rem;
+	font-weight: 900;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.shop-braces-links {
+	position: absolute;
+	width: 100%;
+	height: 82px;
+	bottom: -2px;
+	padding-left: 4px;
+	background-color: rgba(46, 46, 46, 0.9);
+}
+
+.shop-braces-links li {
+	display: inline-block;
+	margin: 32px 26px;
+	font-size: 0.875rem;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.shop-braces-links a {
+	color: #fff;
+	border-bottom: 2px solid #17adb4;
+}
+
+.shop-braces-links a:hover {
+	color: #F0B735;
+	border-bottom: 2px solid #F0B735;
+}
+
+
+/*--- BESTSELLERS ---*/
+
+.braces-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 58.31%;
+	height: 100%;
+}
+
+.braces-best-seller {
+	padding-top: 26px;
+	padding-left: 20px;
+	font-size: 0.875rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #535454;
+}
+
+.braces-product-title {
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size: 1.375rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #535454;
+}
+
+.braces-best-seller-img {
+	padding-left: 138px;
+	padding-top: 21px;
+}
+
+.product-banner-bottom {
+	position: absolute;
+	width: 100%;
+	height: 82px;
+	bottom: -2px;
+	background-color: #e2e0d8;
+}
+
+.price-details {
+	line-height: 82px;
+}
+
+.braces-product-price {
+	display: inline-block;
+	font-size: 1.875rem;
+	font-weight: 900;
+	letter-spacing: 2px;
+	color: #3f4040;
+	padding-left: 20px;
+}
+
+.braces-view-details {
+	position: absolute;
+	top: 0;
+	left: 148px;
+}
+
+.view-details-btn {
+	width: 190px;
+	font-size: 0.8125rem;
+	background-color: #f0b736;
+}
+
+.view-details-btn:hover {
+	background-color: #f9c550;
+}
+
+
+
+/*------------------------------*\
+					#MEDIA QUERIES
+\*------------------------------*/
+
+@media only screen
+	and (min-width: 1300px) {
+	
+	.braces-best-seller, 
+	.braces-product-title {
+		text-align: center;
+	}
+		
+	.price-details {
+		position: relative;
+		margin-left: 26%;
+	}
+
+}
+
+
+@media only screen
+	and (min-width: 927px)
+	and (max-width: 1246px) {
+	
+	.shop-braces-title {
+		bottom: 112px;
+	}	
+
+	.shop-braces-links {
+		height: 96px;
+	}
+
+	.shop-braces-links ul {
+		padding-top: 8px;
+	}
+
+	.shop-braces-links li {
+		float: left;
+		margin: 11px 20px;
+		padding: 0;
+	}
+		
+	.braces-best-seller-img {
+		padding-left: 16%;
+	}
+
+}
+
+
+@media only screen
+	and (min-width: 866px)
+	and (max-width: 926px) {
+	
+	.shop-braces-title {
+		bottom: 112px;
+	}	
+
+	.shop-braces-links {
+		height: 96px;
+		padding-left: 0;
+	}
+
+	.shop-braces-links ul {
+		padding-top: 8px;
+	}
+
+	.shop-braces-links li {
+		float: left;
+		margin: 11px 10px;
+		padding: 0 0 0 22px;
+	}
+		
+	.braces-product-title {
+		font-size: 1.1rem;
+	}
+
+	.braces-best-seller {
+		font-size: 0.8rem;
+		font-weight: 900;
+	}
+
+	.braces-best-seller-img {
+		padding-left: 16%;
+	}
+	
+}
+
+
+@media only screen
+	and (min-width: 649px)
+	and (max-width: 865px) {
+		
+	/*-- SHOP BRACES ---*/
+	
+	.shop-braces-title {
+		bottom: 112px;
+	}	
+
+	.shop-braces-links {
+		height: 96px;
+		padding-left: 0;
+	}
+
+	.shop-braces-links ul {
+		padding-top: 0;
+	}
+
+	.shop-braces-links li {
+		float: left;
+		margin: 11px 10px;
+		padding: 0 0 0 22px;
+	}
+
+	.braces-best-seller {
+		font-size: 0.8rem;
+		font-weight: 900;
+	}
+
+	.braces-best-seller-img {
+		padding-left: 4%;
+	}
+		
+	.braces-product-title {
+		font-size: 1.2rem;		
+	}
+		
+	.braces-view-details {
+		top: -2px;
+		left: 112px;
+	}
+	
+	.braces-product-price {
+		font-size: 1.3rem;
+	}	
+		
+}
+
+
+@media only screen
+	and (min-width: 457px)
+	and (max-width: 648px) {
+		
+	/*-- SHOP BRACES ---*/
+	
+	.banner {
+		height: 100%;
+		bottom: -194px;
+		overflow: visible;
+	}
+		
+	.shop-products {
+		height: 950px;
+	}
+	
+	.braces-left {
+		top: 357px;
+		float: left;
+		width: 100%;
+	}
+		
+	.shop-braces-img img {
+		max-width: 100%;
+	}
+		
+	.shop-braces-title {
+		bottom: 182px;
+	}	
+
+	.shop-braces-links {
+		height: 100px;
+		bottom: 43px;
+	}
+
+	.shop-braces-links ul {
+		padding-top: 0;
+	}
+
+	.shop-braces-links li {
+		margin: 0 16px;
+		padding: 22px 0 0 4px;
+		font-size: 0.825rem;
+	}
+			
+	/*--- BEST SELLERS ---*/
+	
+	.braces-right {
+		top: 0;
+		width: 100%;
+		height: 400px;
+	}
+	
+	.braces-right-bg p {
+		text-align: center;
+	}
+		
+	.braces-best-seller {
+		padding-top: 30px;
+	}
+		
+	.braces-product-title {
+		font-size: 1.3rem;		
+	}
+	
+	.braces-best-seller-img {
+		padding-top: 20px;
+	}
+		
+	.braces-product-price {
+		margin-left: 110px;
+		font-size: 1.575rem;
+	}
+	
+	.view-details-btn {
+		width: 140px;
+	}
+		
+	.braces-view-details {
+		left: 242px;
+	}
+		
+	.braces-right p {
+    padding-left: 12px;
+	}
+		
+}
+
+
+@media only screen
+	and (max-width: 456px) {
+		
+	/*-- SHOP BRACES ---*/
+	
+	.banner {
+		height: 100%;
+		bottom: -194px;
+		overflow: visible;
+	}
+		
+	.shop-products {
+		height: 950px;
+	}
+	
+	.braces-left {
+		top: 340px;
+		float: left;
+		width: 100%;
+	}
+		
+	.shop-braces-img img {
+		max-width: 100%;
+	}
+		
+	.shop-braces-title {
+		bottom: 200px;
+	}	
+
+	.shop-braces-links {
+		height: 100px;
+		bottom: 60px;
+	}
+
+	.shop-braces-links ul {
+		padding-top: 0;
+	}
+
+	.shop-braces-links li {
+		margin: 0 16px;
+		padding: 22px 0 0 4px;
+		font-size: 0.825rem;
+	}
+			
+	/*--- BEST SELLERS ---*/
+	
+	.braces-right {
+		top: 0;
+		width: 100%;
+		height: 400px;
+	}
+	
+	.braces-right-bg p {
+		text-align: center;
+	}
+		
+	.braces-best-seller {
+		padding-top: 30px;
+	}
+		
+	.braces-product-title {
+		font-size: 1.3rem;		
+	}
+	
+	.braces-best-seller-img {
+		padding-top: 20px;
+		padding-left: 18%;
+	}
+		
+	.braces-product-price {
+		margin-left: 110px;
+		font-size: 1.575rem;
+	}
+	
+	.view-details-btn {
+		width: 140px;
+	}
+		
+	.braces-view-details {
+		left: 242px;
+	}
+		
+	.braces-right p {
+    padding-left: 12px;
+	}
+		
+}
+

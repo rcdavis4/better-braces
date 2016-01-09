@@ -1,0 +1,62 @@
+/*------------------------------*\
+				 #BRANDS SECTION
+\*------------------------------*/
+
+.brands-bg {
+	background-image: url(../img/featured-brands/brand-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.brands-title {
+	padding-top: 40px;
+	text-align: center;
+}
+
+.featured {
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 700;
+	font-style: italic;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding-bottom: 8px;
+}
+
+.brands {
+	color: #fff;
+	font-size: 1.875rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.brand-logos {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.aircast,
+.donjoy,
+.chattanooga {
+	display: inline-block;
+	vertical-align: middle;
+	width: 33%;
+	cursor: pointer;
+}
+
+.brands-dropdown {
+	padding-top: 40px;
+	padding-bottom: 38px;
+	text-align: center;
+}
+
+.brands-dropdown img {
+	cursor: pointer;
+}
+
+/*--- MORE BRANDS DROPDOWN ---*/
+.more-brands {
+	padding-bottom: 50px;
+}

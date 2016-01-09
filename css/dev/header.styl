@@ -1,0 +1,615 @@
+/*--- COLORS ---*/
+
+agua 			 = #35AEB4
+sand 			 = #F2F2ED
+lightSand  = #F7F7F3
+sandShadow = #E9E8E0
+textGray   = #535454
+textSand   = #C8C6B6
+graySand   = #E2E0D7
+medGray    = #797979
+goldbar    = #F0B736
+charcoal   = #2E2E2E
+
+
+/*--- MIXINS ---*/
+
+upperFont(size, weight, letterSp, lineHt, fontColor)
+	font-size size
+	font-weight weight
+	text-transform uppercase
+	letter-spacing letterSp
+	line-height lineHt
+	color fontColor
+
+
+/*--- CONTENT WRAPPER ---*/
+	
+.header-wrapper
+	max-width 1170px
+	margin 0 auto
+	
+	
+/*--- NOTIFICATION BAR ---*/	
+	
+.notification-bar
+	position relative
+	width	100%
+	height 40px
+	background-color agua
+	
+.promotion
+	upperFont(0.9375rem, 700, 0.1rem, 40px, #fff)
+	text-align center
+
+.close
+	position absolute
+	top -2px
+	right 1.5384%
+	upperFont(2rem, 400, 0.1rem, 40px, #fff)
+	cursor pointer
+	
+	
+/*--- CART-BAR ---*/
+
+.cart-bar
+	width	100%
+	height 40px
+	background-color sand
+	
+	ul
+		display inline-block
+		float left
+		margin-right 21px
+		+below(800px)
+			margin-right 26px
+	
+	li 
+		display inline-block
+		float left
+		padding-right 40px
+		:nth-child(2)
+			padding 0 57px 0 0
+		:last-of-type
+			padding-right 0
+		a 
+			upperFont(0.75rem, 700, 0.08rem, 40px, textGray)	
+		
+		+below(800px)
+			padding-right 20px
+		
+.fast-free-ship
+	display inline-block
+	float: left
+	upperFont(0.8125rem, 400, 0.09rem, 40px, textGray)
+	span
+		font-weight 900
+	
+	+below(800px)
+		margin-left 6px
+	+below(767px)
+		width 100%
+		text-align center
+	
+.shopping-cart,
+.click-arrow,
+.phone,
+.search-icon
+	background-image url('../img/sprites/group.png')
+	background-repeat no-repeat
+	
+.cart-bar-links
+	display inline-block
+	float	right
+	+above(1300px)
+		margin-right 2%
+	+below(767px)
+		display none
+	
+.cart
+	display inline-block
+	position relative
+	width 110px
+	height 40px
+	float left
+	a 
+		position absolute
+		upperFont(0.75rem, 700, 0.08rem, 40px, textGray)
+	
+	+below(800px)
+		width	82px
+	
+.shopping-cart
+	display inline-block
+	position absolute
+	top 33%
+	right 107%
+	width 20px
+	height 15px
+	background-position -87px 0
+
+.items-in-cart
+	position absolute
+	top 0
+	right 33%
+	
+	+below(800px)
+		right: 12%
+	
+.items-in-cart span
+	upperFont(0.875rem, 900, 0.1rem, 40px, medGray)
+	padding 6px 10px
+	background-color graySand
+	
+
+/*--- HEADING ---*/
+
+.heading
+	clear both
+	overflow hidden
+	
+	+below(800px)
+		padding-top 10px
+
+.bb-logo
+	display inline-block
+	float left
+	
+.bb-logo
+	padding 15px 0 15px 10px
+	
+	+below(800px)
+		width	260px
+	+below(767px)
+		padding 10px 0 20px 10px
+	+below(460px)
+		padding 0
+		max-width	50%
+	+between(380px, 430px)
+		margin-top -5px
+		
+.communicate
+	float right
+	margin-right 10px
+	
+	+above(768px)
+		display block !important
+	+below(767px)
+		display none
+		border-top 1px solid #E9E8E0
+	+below(460px)
+		float left
+		width 100%
+		max-height 132px
+		padding-bottom 0
+		margin-top -16px
+
+
+.communicate .title
+	upperFont(1.125rem, 900, 0.1rem, 24px, textGray)
+	font-style italic
+	padding-top 13px
+	padding-left 6px
+	+below(767px)
+		display none
+
+.consult,
+.guide
+	position relative
+	float left
+	cursor pointer
+	padding 3px 0 14px 0
+	
+	+below(460px)
+		float left
+		width 100%
+		padding: 0 0 5px 0;
+
+.guide
+	padding-right 10px
+	
+	+below(460px)
+		padding-right 0
+		margin-bottom 2px
+		
+	p 
+		+below(460px)
+			margin-left 20px
+			
+.consult
+	padding-right 7px
+	
+	+below(460px)
+		padding-right 0
+		margin-top 4px
+		
+	p 
+		+below(460px)
+			margin-left 20px
+		
+.consult-bg,
+.guide-bg
+	position relative
+	height 50px
+	transform skew(-12deg)
+	background lightSand
+	box-shadow 1px 1px 1px sandShadow
+	
+	+below(460px)
+		transform none
+	
+.consult-bg
+	width 214px
+	
+	+below(800px)
+		width 183px
+	+below(460px)
+		width 100%
+		max-height 63px
+	
+.guide-bg
+	width 278px
+	
+	+below(800px)
+		width 245px
+	+below(460px)
+		width 100%
+		max-height 63px
+	
+.click-arrow,
+.phone
+	display inline-block
+	position absolute
+	top 16px
+	left 15px
+	width 26px
+	height 26px
+	
+.click-arrow
+	background-position -31px 0
+	
+	+below(800px)
+		left 8px
+	+below(460px)
+		top 12px
+		left 28px
+	
+.phone
+	background-position 0 0
+	
+	+below(800px)
+		left 8px	
+	+below(460px)
+		top 12px
+		left 28px
+	
+.directive,
+.advisor,
+.expert-link
+	position absolute
+	top -3px
+	left 50px
+	
+	+below(800px)
+		left 39px	
+	+below(460px)
+		top -7px
+	
+.directive
+	upperFont(0.875rem, 900, 0.16rem, 50px, agua)
+	font-style italic
+	
+	+below(800px)
+		font-size 0.8rem
+	
+.advisor,
+.expert-link
+	upperFont(0.875rem, 900, 0.15rem, 50px, textGray)
+	font-style italic
+	margin-top 15px
+	
+	+below(800px)
+		font-size 0.8rem
+	
+.advisor
+	display inline-block
+	line-height 15px
+	border-bottom 2px solid agua
+	padding-top 17px
+	
+.expert-link span
+	upperFont(0.875rem, 400, 0.08rem, 50px, textGray)
+	font-style normal
+	padding-left 7px
+
+	
+/*--- NAV BAR ---*/
+
+nav
+	display block
+	position relative
+	height 56px
+	clear both
+	background-color charcoal
+	
+	ul
+		display block
+		float left
+		
+		+below(800px)
+			margin-left -10px
+		+below(767px)
+			display none
+	
+	li
+		position relative
+		display block
+		float	left
+		padding	0 28px
+		upperFont(1rem, 700, 0.1rem, 56px, #fff)
+		cursor pointer
+		+below(767px)
+			display none
+		
+		span 
+			position relative
+		
+		:last-of-type
+			padding-right 0
+		
+		+below(1020px)
+			padding 0 24px
+		+below(990px)
+			padding 0 20px
+		+below(895px)
+			padding 0 20px
+			font-size 0.85rem
+		+below(800px)
+			font-size 0.80rem
+			padding 0 22px
+	
+.down-arrow1,
+.down-arrow2,
+.down-arrow3,
+.down-arrow4
+	position absolute
+	top 5px
+	right -18px
+	height 0px
+	width 0px
+	border-left: 5px solid transparent
+	border-right: 5px solid transparent
+	border-top: 5px solid goldbar
+	
+nav li:hover
+	.down-arrow1,
+	.down-arrow2,
+	.down-arrow3,
+	.down-arrow4
+		border-left: 5px solid transparent
+		border-right: 5px solid transparent
+		border-top: 5px solid agua
+		
+.search-site
+	position relative
+	display inline-block
+	float	right
+	margin-right 20px
+	
+	+below(800px)
+		margin-right 10px
+	+below(767px)
+		display none
+		
+.search-bar
+	position relative
+	top 8px
+	right 0
+	height 40px
+	width 260px
+	box-shadow none
+	border none
+	border-radius 25px
+	appearance none
+	upperFont(0.875rem, 700, 0.1rem, 40px, textGray)
+	
+	:focus
+		outline none
+		
+	+below(1050px)
+		width 230px
+	+below(1020px)
+		width 200px
+	+below(990px)
+		width 160px
+	+below(895px)
+		width 130px
+		font-size 0.75rem
+		
+
+.search-icon
+	position absolute
+	top 17px
+	right 18px
+	width 20px
+	height 20px
+	background-position -62px 0
+	
+	+below(895px)
+		right 14px
+	+below(800px)
+		right 12px
+		
+		
+/*--- COMMUNICATE MOBILE ---*/
+
+.communicate-mobile
+	position relative
+	float right
+	margin-top 37px 
+	cursor pointer
+	
+	+above(768px)
+		display none !important
+	+below(767px)
+		display block
+	+below(460px)
+		margin-top 17px
+		margin-bottom 15px
+	+below(430px)
+		margin-top 6px
+	+below(360px)
+		margin-top 3px
+		
+
+
+.consult-bg-mobile
+	position relative
+	height 50px
+	width 178px
+	transform skew(-12deg)
+	background lightSand
+	box-shadow 1px 1px 1px sandShadow
+	float right
+	margin-right -10px
+	z-index -999
+	
+	+below(360px)
+		width 160px
+	
+.find-brace
+	display inline-block
+	position absolute
+	width 115px
+	top 8px
+	right 7px
+	p 
+		display inline
+		upperFont(14px, 900, 0.1rem, 18px, textGray)
+		border-bottom 1px solid agua 
+		font-style italic
+	
+	+below(360px)
+			right 2px
+	
+.arrow-down
+	position absolute
+	top 13px
+	left 15px
+	height 25px
+	width 25px
+	background-image url(../img/sprites/group.png)
+	background-repeat no-repeat
+	background-position -167px 0
+	
+	+below(360px)
+		left 5px
+	
+		
+/*--- CLOSE COMMUNICATE MOBILE ---*/
+
+.close-communicate
+	position relative
+	float right
+	margin-top 37px
+	cursor pointer
+
+	+above(768px)
+		display none !important
+	+below(460px)
+		margin-top 24px
+		margin-bottom 15px
+	+below(430px)
+		margin-top 14px
+	+below(360px)
+		margin-top 6px
+		
+	.close
+		display inline-block
+		position absolute
+		width 115px
+		top -2px
+		right 7px
+		p 
+			display inline
+			upperFont(14px, 900, 0.1rem, 18px, #fff)
+			border-bottom 1px solid #fff 
+			font-style italic
+
+		+below(360px)
+				right -10px
+
+.close-bg-mobile
+	position relative
+	height 50px
+	width 178px
+	transform skew(-12deg)
+	background #9C9993
+	float right
+	margin-right -10px
+	z-index -999
+	
+	+below(360px)
+		width 160px
+	
+.arrow-up
+	position absolute
+	top 13px
+	left 15px
+	height 25px
+	width 25px
+	background-image url(../img/sprites/group.png)
+	background-repeat no-repeat
+	background-position -111px 0
+	
+	+below(360px)
+		left 15px
+	
+		
+		
+/*--- NAV MOBILE ---*/	
+
+.nav-mobile
+	display inline-block
+	width 100%
+	height 56px
+	+above(767px)
+		display none
+	
+	section 
+		position relative
+		display inline-block
+		width 25%
+		height 56px
+		border-right 1px solid #000
+	
+	.menu-dropdown
+		height 56px
+		
+	.menu 
+		p 
+			upperFont(16px, 900, 0.1rem, 56px, #fff)
+			margin-left 34px
+		
+		.menu-bars
+			position absolute
+			top 20px
+			left 100px
+			height 15px
+			width 20px
+			background-image url(../img/sprites/group.png)
+			background-repeat no-repeat
+			background-position -30px -30px
+	
+	.search-nav
+		.search-icon
+			position absolute
+			top 33%
+			left 43%
+			height 22px
+			width 22px
+			background-image url(../img/sprites/group.png)
+			background-repeat no-repeat
+			background-position -54px -30px
+		
+	

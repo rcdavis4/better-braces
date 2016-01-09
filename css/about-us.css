@@ -1,0 +1,78 @@
+/*------------------------------*\
+				#ABOUT US SECTION
+\*------------------------------*/
+
+.about-us {
+	height: 512px;
+}
+
+.content-wrapper-about {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.about-wrapper {
+	padding-top: 80px;
+}
+
+.about-blurb {
+	width: 612px;
+	float: left;
+}
+
+.about-title {
+	font-size: 1.875rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-bottom: 8px;
+	color: #404141;
+}
+
+.about-blurb p {
+	font-size: 0.875rem;
+	padding-bottom: 20px;
+	color: #404141;
+	line-height: 1.5rem;
+}
+
+.about-media {
+	display: inline-block;
+	float: right;
+	padding-top: 8px;
+}
+
+.about-img {
+	float: right;
+}
+
+
+
+
+/*------------------------------*\
+					#MEDIA QUERIES
+\*------------------------------*/
+
+@media only screen
+	and (min-width: 927px)
+	and (max-width: 1139px) {
+
+	/*--- ABOUT US SECTION ---*/
+
+	.about-us {
+		height: 572px;
+	}
+
+	.content-wrapper-about {
+		max-width: 930px;
+	}
+
+	.about-blurb {
+		width: 450px;
+	}
+
+	.about-img {
+		width: 460px;
+	}
+
+}
